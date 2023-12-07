@@ -17,7 +17,7 @@ jobs:
         with:
           go-version-file: "backend/go.mod"
       - name: Install dependencies
-        run: go mod download -v
+        run: go mod download
       - name: Build binary
         run: go build -v -ldflags "-v -s -w -extldflags '-static'" -tags "osusergo,netgo -trimpath
       - uses: docker/setup-buildx-action@v3
