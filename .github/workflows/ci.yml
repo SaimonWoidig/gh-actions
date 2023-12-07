@@ -29,7 +29,7 @@ jobs:
           context: backend
           file: backend/docker/Dockerfile
           push: true
-          tags: ghcr.io/SaimonWoidig/gh-actions/backend:1.0.0
+          tags: ghcr.io/saimonwoidig/gh-actions/backend:1.0.0
   frontend:
     runs-on: ubuntu-latest
     steps:
@@ -45,4 +45,4 @@ jobs:
           context: frontend
           file: frontend/docker/Dockerfile
           push: true
-          tags: ghcr.io/SaimonWoidig/gh-actions/frontend:1.0.0
+          tags: ghcr.io/saimonwoidig/gh-actions/frontend:1.0.0
