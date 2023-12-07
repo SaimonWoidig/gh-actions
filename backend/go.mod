@@ -1,3 +1,3 @@
-module github.com/SaimonWoidig/dagger-ci/backend
+module github.com/SaimonWoidig/gh-actions/backend
 
 go 1.21
